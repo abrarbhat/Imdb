@@ -1,0 +1,11 @@
+C:\Users\Abrar.Bhat\source\repos\Imdb\Imdb\bin\Debug\netcoreapp2.0\Imdb.deps.json
+C:\Users\Abrar.Bhat\source\repos\Imdb\Imdb\bin\Debug\netcoreapp2.0\Imdb.runtimeconfig.json
+C:\Users\Abrar.Bhat\source\repos\Imdb\Imdb\bin\Debug\netcoreapp2.0\Imdb.runtimeconfig.dev.json
+C:\Users\Abrar.Bhat\source\repos\Imdb\Imdb\bin\Debug\netcoreapp2.0\Imdb.dll
+C:\Users\Abrar.Bhat\source\repos\Imdb\Imdb\bin\Debug\netcoreapp2.0\Imdb.pdb
+C:\Users\Abrar.Bhat\source\repos\Imdb\Imdb\obj\Debug\netcoreapp2.0\Imdb.csprojResolveAssemblyReference.cache
+C:\Users\Abrar.Bhat\source\repos\Imdb\Imdb\obj\Debug\netcoreapp2.0\Imdb.csproj.CoreCompileInputs.cache
+C:\Users\Abrar.Bhat\source\repos\Imdb\Imdb\obj\Debug\netcoreapp2.0\Imdb.AssemblyInfoInputs.cache
+C:\Users\Abrar.Bhat\source\repos\Imdb\Imdb\obj\Debug\netcoreapp2.0\Imdb.AssemblyInfo.cs
+C:\Users\Abrar.Bhat\source\repos\Imdb\Imdb\obj\Debug\netcoreapp2.0\Imdb.dll
+C:\Users\Abrar.Bhat\source\repos\Imdb\Imdb\obj\Debug\netcoreapp2.0\Imdb.pdb

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Imdb.Models.Movies>
+
+@{
+    ViewData["Title"] = "Movies Store -ALl Movie List";
+}
+
+<h2>Movies</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table>
+    <tr>       
+        <th></th>
+        <th>ID</th>
+        <th>Genre</th>
+        <th>Artist</th>
+        <th>Title</th>
+        <th>Price</th>
+    </tr>
+    
+        @foreach (var item in Model)
+        {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Image)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Plot)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.YearOfRelease)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+        }
+</table>

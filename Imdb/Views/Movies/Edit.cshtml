@@ -1,0 +1,44 @@
+﻿@model Imdb.Models.Movies
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Movies</h4>
+<hr />
+<fieldset>
+    <legend>Album</legend>
+    <div class="editor-label">
+        @Html.LabelFor(model => model.ID)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.ID)
+        @Html.ValidationMessageFor(model => model.ID)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Plot)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.Plot)
+        @Html.ValidationMessageFor(model => model.Plot)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.YearOfRelease)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.YearOfRelease)
+        @Html.ValidationMessageFor(model => model.YearOfRelease)
+    </div>
+    <p>
+        <input type="submit" value="Save" />
+    </p>
+</fieldset>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,25 @@
+﻿@model Imdb.Models.Movies
+
+@{
+    ViewData["Title"] = "AddMovie";
+}
+
+<h2>AddMovie</h2>
+
+<h4>Movies</h4>
+<hr />
+
+@using (Html.BeginForm("Create", "Movies", FormMethod.Post))
+{
+    @Html.TextBoxFor(m => m.ID);
+    @Html.TextBoxFor(m => m.Name);
+    @Html.TextBoxFor(m => m.Plot);
+    @Html.TextBoxFor(m => m.Image);
+    @Html.EditorFor(m => m.YearOfRelease, new { @type = "date" })
+    <input type="submit" value="Add Movie" />
+}
+}
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
